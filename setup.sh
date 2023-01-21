@@ -50,10 +50,23 @@ EOF
         cp assets/caffeine_inactive.svg  ~/.local/share/icons/
     fi
     echo "done!"
+    echo "Installing plasmoid..."
+    plasmapkg2 --install com.github.caffeine-minus
 }
 
 uninstall() {
-    echo
+    printf "Removing icons..."
+    if [[ -e ~/.local/share/icons/caffeine_active.svg ]]; then
+        rm  ~/.local/share/icons/caffeine_active.svg
+    fi
+    if [[ ! -e ~/.local/share/icons/caffeine_inactive.svg ]]; then
+        rm  ~/.local/share/icons/caffeine_inactive.svg
+    fi
+    echo "done!"
+    printf "Removing plasmoid..."
+    if [[ -e ~/.local/share/plasma/plasmoids/com.github.deloachcd.caffeine-minus/ ]]; then
+        rm -r ~/.local/share/plasma/plasmoids/com.github.deloachcd.caffeine-minus/
+    fi
 }
 
 USER_ACTION="$1"
