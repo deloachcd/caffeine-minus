@@ -17,6 +17,7 @@ taskbar, and stops when you click it again.
 There is a single dependency, depending on the display server utilized:
 - `xdotool` for X11
 - `wtype` for wayland
+
 It is automatically installed with the provided `setup.sh` script.
 
 ### Installation
