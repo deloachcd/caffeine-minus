@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Kaffeine
+Name[en_GB]=Kaffeine
+Comment=Button to temporarily keep the screen from locking automatically
+Comment[en_GB]=Button to temporarily keep the screen from locking automatically
+
+Icon=kaffeine_active
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+
+X-KDE-PluginInfo-Author=Chandler DeLoach
+X-KDE-PluginInfo-Email=deloach.cdd@gmail.com
+X-KDE-PluginInfo-Name=com.github.deloachcd.kaffeine
+X-KDE-PluginInfo-Version=0.1.0
+X-KDE-PluginInfo-Website=https://github.com/deloachcd/kaffeine
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-License=GPL

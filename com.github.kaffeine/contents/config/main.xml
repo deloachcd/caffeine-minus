@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="iconOff" type="String">
+      <label>Icon off</label>
+      <default>kaffeine_inactive</default>
+    </entry>
+    <entry name="iconOn" type="String">
+      <label>Icon on</label>
+      <default>kaffeine_active</default>
+    </entry>
+    <entry name="updateInterval" type="Int">
+      <label>Interval to run status script</label>
+      <default>59</default>
+    </entry>
+    <entry name="updateIntervalUnit" type="Int">
+        <label>Unit to run status script</label>
+        <default>0</default>
+    </entry>
+    <entry name="interval" type="Int">
+        <label>Used internally - interval 59 seconds</label>
+        <default>59</default>
+    </entry>
+  </group>
+</kcfg>
