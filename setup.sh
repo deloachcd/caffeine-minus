@@ -43,11 +43,11 @@ EOF
 
     echo "Dependencies installed!"
     printf "Installing icons..."
-    if [[ ! -e ~/.local/share/icons/kaffeine_active.svg ]]; then
-        cp assets/kaffeine_active.svg  ~/.local/share/icons/
+    if [[ ! -e ~/.local/share/icons/caffeine_active.svg ]]; then
+        cp assets/caffeine_active.svg  ~/.local/share/icons/
     fi
-    if [[ ! -e ~/.local/share/icons/kaffeine_inactive.svg ]]; then
-        cp assets/kaffeine_inactive.svg  ~/.local/share/icons/
+    if [[ ! -e ~/.local/share/icons/caffeine_inactive.svg ]]; then
+        cp assets/caffeine_inactive.svg  ~/.local/share/icons/
     fi
     echo "done!"
 }

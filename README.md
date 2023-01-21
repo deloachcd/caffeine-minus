@@ -1,13 +1,17 @@
-# Kaffeine
-## Port of 'Caffeine' from macOS to KDE
+# caffeine-minus
+## Port of 'Caffeine' from Windows/macOS as a KDE plasmoid
 
-This is a button that allows to run script when toggled (on and off scripts)
-and to monitor status by status script.
+This is a button that allows the user to keep the screen unlocked 
+temporarily while active from the taskbar. It's a really simple,
+but useful application.
 
-### Why yet another port of this?
-Because the other port of this for KDE is too complicated for my taste.
-This is the caveman version of that, because I don't need it to do anything
-besides just keep the screen unlocked when I click on it.
+### Why yet another port of Caffeine for Linux?
+Because every other port of Caffeine is too complicated for my taste.
+This is the caveman version of the software, it just fakes pressing
+the "Pause/Break" key at a user-defined interval defaulting to just
+under a minute.  No Python, no CMake, no integration with other
+applications, it just keeps the screen alive when you click it in the
+taskbar, and stops when you click it again.
 
 ### Dependencies
 There is a single dependency, depending on the display server utilized:
