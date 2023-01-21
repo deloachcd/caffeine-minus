@@ -8,11 +8,11 @@
   <group name="General">
     <entry name="iconOff" type="String">
       <label>Icon off</label>
-      <default>kaffeine_inactive</default>
+      <default>caffeine_inactive</default>
     </entry>
     <entry name="iconOn" type="String">
       <label>Icon on</label>
-      <default>kaffeine_active</default>
+      <default>caffeine_active</default>
     </entry>
     <entry name="updateInterval" type="Int">
       <label>Interval to run status script</label>
