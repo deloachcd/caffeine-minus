@@ -52,15 +52,7 @@ Item {
 
     function emulateKeypress() {
         //console.log("Sending " + keyToPress + " signal...")
-        var cmd = (
-            "if [[ $XDG_SESSION_TYPE == x11 ]]; then " +
-                "xdotool key Pause;" +
-            "else " +
-                "wtype Pause;" +
-            "fi"
-        )
-        console.log(cmd)
-        executable.exec(cmd);
+        executable.exec("~/.local/share/plasma/plasmoids/com.github.deloachcd.caffeine-minus/script/caffeine-worker.sh");
     }
     
     function toggleKeypressTimer() {

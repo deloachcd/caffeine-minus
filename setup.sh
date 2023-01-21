@@ -67,6 +67,7 @@ uninstall() {
     if [[ -e ~/.local/share/plasma/plasmoids/com.github.deloachcd.caffeine-minus/ ]]; then
         rm -r ~/.local/share/plasma/plasmoids/com.github.deloachcd.caffeine-minus/
     fi
+    echo "done!"
 }
 
 USER_ACTION="$1"
