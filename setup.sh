@@ -51,7 +51,7 @@ EOF
     fi
     echo "done!"
     echo "Installing plasmoid..."
-    plasmapkg2 --install com.github.caffeine-minus
+    plasmapkg2 --install com.github.deloachcd.caffeine-minus
 }
 
 uninstall() {
