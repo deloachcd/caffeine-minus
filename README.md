@@ -29,7 +29,6 @@ If you decide this thing actually sucks, it's no problem:
 ```
 ./setup.sh uninstall
 ```
-Install this plasmoid using `plasmapkg2 --install .` in the plasmoid directory.
 
 ### Credits
   - https://github.com/pmarki/plasmoid-button
