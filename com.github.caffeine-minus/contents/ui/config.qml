@@ -44,7 +44,7 @@ Item {
             Label {
                 Layout.row: 0
                 Layout.column: 0
-                text: i18n("Icon")
+                text: i18n("Icon (active)")
             }
             IconPicker {
                 Layout.row: 0
@@ -58,7 +58,7 @@ Item {
             Label {
                 Layout.row: 1
                 Layout.column: 0
-                text: i18n("Icon")
+                text: i18n("Icon (inactive)")
             }
             IconPicker {
                 Layout.row: 1
